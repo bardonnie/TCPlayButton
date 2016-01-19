@@ -1,5 +1,5 @@
 ### TCPlayButton
-> A Youtobe link button
+> A Youtobe like button
 
 ### Dome
 	UIButton *playBtton = [UIButton buttonWithType:UIButtonTypeTCPlay];
