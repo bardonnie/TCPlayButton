@@ -13,6 +13,7 @@
 		AC35D15C1C4E32690086B36F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC35D15A1C4E32690086B36F /* Main.storyboard */; };
 		AC35D15E1C4E32690086B36F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC35D15D1C4E32690086B36F /* Assets.xcassets */; };
 		AC35D1611C4E32690086B36F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC35D15F1C4E32690086B36F /* LaunchScreen.storyboard */; };
+		AC35D16B1C4E32A00086B36F /* UIButton+TCPlayButton.m in Sources */ = {isa = PBXBuildFile; fileRef = AC35D16A1C4E32A00086B36F /* UIButton+TCPlayButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		AC35D15D1C4E32690086B36F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC35D1601C4E32690086B36F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC35D1621C4E32690086B36F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC35D1691C4E32A00086B36F /* UIButton+TCPlayButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+TCPlayButton.h"; sourceTree = "<group>"; };
+		AC35D16A1C4E32A00086B36F /* UIButton+TCPlayButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+TCPlayButton.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		AC35D1501C4E32690086B36F /* TCPlayButtonDemo */ = {
 			isa = PBXGroup;
 			children = (
+				AC35D1681C4E32A00086B36F /* resource */,
 				AC35D1541C4E32690086B36F /* AppDelegate.h */,
 				AC35D1551C4E32690086B36F /* AppDelegate.m */,
 				AC35D1571C4E32690086B36F /* ViewController.h */,
@@ -77,6 +81,15 @@
 				AC35D1521C4E32690086B36F /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AC35D1681C4E32A00086B36F /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				AC35D1691C4E32A00086B36F /* UIButton+TCPlayButton.h */,
+				AC35D16A1C4E32A00086B36F /* UIButton+TCPlayButton.m */,
+			);
+			path = resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,6 +162,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC35D16B1C4E32A00086B36F /* UIButton+TCPlayButton.m in Sources */,
 				AC35D1591C4E32690086B36F /* ViewController.m in Sources */,
 				AC35D1561C4E32690086B36F /* AppDelegate.m in Sources */,
 				AC35D1531C4E32690086B36F /* main.m in Sources */,
