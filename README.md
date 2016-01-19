@@ -11,4 +11,5 @@
     }];
     [self.view addSubview:playBtton];
     
+### Effect
 ![Effect](effect.gif)
