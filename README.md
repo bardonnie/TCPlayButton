@@ -1,7 +1,7 @@
 ### TCPlayButton
 > A Youtobe like button
 
-### Dome
+### Demo
 	UIButton *playBtton = [UIButton buttonWithType:UIButtonTypeTCPlay];
     playBtton.frame = CGRectMake(100, 100, 100, 100);
     [playBtton playState:NO];
