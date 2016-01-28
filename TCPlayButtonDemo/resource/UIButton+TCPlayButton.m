@@ -172,12 +172,14 @@ static const CGFloat margin = 0.2f;
     pathAnimation0.duration = duration;
     pathAnimation0.fromValue = (__bridge id _Nullable)(fromePath0);
     pathAnimation0.toValue = (__bridge id _Nullable)(toPath0);
+    pathAnimation0.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseOut];
     [self.pauseLineLayer0 addAnimation:pathAnimation0 forKey:nil];
     
     CABasicAnimation *pathAnimation1 = [CABasicAnimation animationWithKeyPath:@"path"];
     pathAnimation1.duration = duration;
     pathAnimation1.fromValue = (__bridge id _Nullable)(fromePath1);
     pathAnimation1.toValue = (__bridge id _Nullable)(toPath1);
+    pathAnimation1.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseOut];
     [self.pauseLineLayer1 addAnimation:pathAnimation1 forKey:nil];
     
     [CATransaction setCompletionBlock:^{

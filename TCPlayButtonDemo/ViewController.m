@@ -31,6 +31,8 @@
         NSLog(@"play - %d", play);
     }];
     [self.view addSubview:playBtton];
+
+    
 }
 
 - (void)didReceiveMemoryWarning {
