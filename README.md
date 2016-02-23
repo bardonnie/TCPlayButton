@@ -1,5 +1,5 @@
 # TCPlayButton
-### TCPlayButton Demo
+### TCPlayButton
 > A Youtobe like button
 
 ### Usage
@@ -12,5 +12,5 @@
     }];
     [self.view addSubview:playBtton];
     
-### Effect
+### Demo
 ![Effect](effect.gif)
