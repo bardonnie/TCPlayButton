@@ -1,8 +1,8 @@
 # TCPlayButton
-### TCPlayButton
+### TCPlayButton Demo
 > A Youtobe like button
 
-### Demo
+### Usage
 	UIButton *playBtton = [UIButton buttonWithType:UIButtonTypeTCPlay];
     playBtton.frame = CGRectMake(100, 100, 100, 100);
     [playBtton playState:NO];
