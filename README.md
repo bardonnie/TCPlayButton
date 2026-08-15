@@ -1,6 +1,8 @@
+
+
 # TCPlayButton
 ### TCPlayButton
-> A Youtobe like button
+> A Youtube like button
 
 ### Usage
 	UIButton *playBtton = [UIButton buttonWithType:UIButtonTypeTCPlay];
